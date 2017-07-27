@@ -1,0 +1,12 @@
+Source: robex
+Section: contrib/science
+Priority: optional
+Maintainer: Will Foran <foranw@upmc.edu>
+Build-Depends: debhelper (>= 9), cmake, libinsighttoolkit4-dev
+Standards-Version: 3.9.8
+Homepage: https://www.nitrc.org/projects/robex
+
+Package: robex
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends} 
+Description: Automatic whole-brain extraction tool for T1-weighted MRI data 
