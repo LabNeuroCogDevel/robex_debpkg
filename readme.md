@@ -10,10 +10,8 @@ See `getAndPackage.bash` to download and extract source as well as start packagi
  2. links `runROBEX.sh` to `/usr/bin/` (`robex_1.12/debian/robex.links`)
 
 ## Todo:
- 1. set version
- 2. confirm /opt/robex is okay with debian rules
- 2. get licence info
- 3. other package info
+ 2. confirm /opt/robex is okay with debian packaging practices
+ 3. other package linting
 
 ## cpack
 
