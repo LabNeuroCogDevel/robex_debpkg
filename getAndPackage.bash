@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 msg() { echo "## [$(date +%FT%H:%M)] $@"; }
 
-if [ ! -d robex_1.12]; then
+if [ ! -d robex_1.12 ]; then
   msg "getting robex source (zip) from nitric.org"
   curl -L 'https://www.nitrc.org/frs/download.php/5996/ROBEXv12.source.all_platforms.zip//?i_agree=1&download_now=1' > robex-1.12.zip
   unzip robex-1.12.zip
