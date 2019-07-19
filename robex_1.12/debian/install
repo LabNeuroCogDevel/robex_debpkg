@@ -1,3 +1,4 @@
-dat                               opt/robex
-obj-x86_64-linux-gnu/ROBEX        opt/robex
-runROBEX.sh                       opt/robex
+dat                               usr/share/robex
+ref_vols                          usr/share/robex
+obj-x86_64-linux-gnu/ROBEX        usr/share/robex
+runROBEX.sh                       usr/share/robex
