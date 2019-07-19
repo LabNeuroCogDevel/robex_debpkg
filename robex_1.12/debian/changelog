@@ -1,6 +1,8 @@
 robex (1.12-2) unstable; urgency=low
+
   * move application data to /usr/share/robex/, include ref_vol
- -- Will Foran <foranw@upmc.edu>  Fri 19 Jul 2019 01:07:23 PM EDT
+
+ -- Will Foran <foranw@upmc.edu>  Fri 19 Jul 2019 01:07:23 -0500
 
 robex (1.12-1) unstable; urgency=low
 

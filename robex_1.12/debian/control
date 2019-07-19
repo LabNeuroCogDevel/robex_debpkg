@@ -8,5 +8,6 @@ Homepage: https://www.nitrc.org/projects/robex
 
 Package: robex
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends} 
+#Depends: ${shlibs:Depends}, ${misc:Depends} 
+Depends: libc6, libstdc++
 Description: Automatic whole-brain extraction tool for T1-weighted MRI data 
